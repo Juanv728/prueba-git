@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, purple, tomato);
+    background-repeat: no-repeat;
+    display: flex;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 110px;
+    font-family: monospace;
+    letter-spacing: .5em;
+    color: #505050;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
